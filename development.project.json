@@ -1,0 +1,13 @@
+{
+  "name": "effect",
+  "tree": {
+    "$className": "DataModel",
+    "effect": {
+      "$path": "Packages",
+      "$ignoreUnknownInstances": true,
+      "effect": {
+        "$path": "src"
+      }
+    }
+  }
+}
