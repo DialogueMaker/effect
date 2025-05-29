@@ -1,6 +1,6 @@
 --!strict
 
-local IEffect = require(script.Parent["effect-types"]);
+local IEffect = require(script.Parent.roblox_packages.effect_types);
 
 type Effect = IEffect.Effect;
 type Bounds = IEffect.Bounds;
