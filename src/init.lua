@@ -1,11 +1,11 @@
 --!strict
 
-local IEffect = require(script.Parent.roblox_packages.effect_types);
+local DialogueMakerTypes = require(script.Parent.roblox_packages.dialogue_maker_types);
 
-type Effect = IEffect.Effect;
-type Bounds = IEffect.Bounds;
-type RunEffectFunction = IEffect.RunEffectFunction;
-type FitFunction = IEffect.FitFunction;
+type Effect = DialogueMakerTypes.Effect;
+type Bounds = DialogueMakerTypes.Bounds;
+type RunEffectFunction = DialogueMakerTypes.RunEffectFunction;
+type FitFunction = DialogueMakerTypes.FitFunction;
 
 local Effect = {};
 
